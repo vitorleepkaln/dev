@@ -3,7 +3,7 @@ view: inventory_items {
 
   dimension: id {
     primary_key: yes
-    hidden: yes
+    hidden: no
     type: number
     sql: ${TABLE}.id ;;
   }
