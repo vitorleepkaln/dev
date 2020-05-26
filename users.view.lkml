@@ -28,6 +28,11 @@ view: users {
     sql: ${TABLE}.country ;;
   }
 
+  dimension: user_att {
+    type: yesno
+    sql: ${first_name} IN ({{ _user_attributes['slack_username']}}) ;;
+  }
+
   dimension_group: created {
     type: time
     timeframes: [

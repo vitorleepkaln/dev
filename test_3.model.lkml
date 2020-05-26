@@ -1,6 +1,6 @@
 connection: "thelook"
 
-# include: "*.view.lkml"
+include: "*.view.lkml"
 
 view: test {
   sql_table_name: demo_db.products  ;;
@@ -13,3 +13,6 @@ view: test {
 }
 
 explore: test {}
+
+explore: users {
+}
