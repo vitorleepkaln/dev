@@ -11,7 +11,7 @@ view: test {
     html: {{rendered_value}} ;;
   }
 }
-
+explore: users_dt {}
 explore: test {}
 
 explore: users {
