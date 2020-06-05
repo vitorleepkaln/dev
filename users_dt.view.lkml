@@ -4,4 +4,8 @@ view: users_dt {
    persist_for: "1 hour"
   indexes: ["id"]
  }
+
+dimension: id {}
+dimension: state {}
+dimension: country {}
 }
